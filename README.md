@@ -1,6 +1,6 @@
 # Hello Microverse
 
-> This is a simple Hello Miroverse Project
+> This is a simple Hello Miroverse Project.
 
 
 Additional description about the project and its features.
