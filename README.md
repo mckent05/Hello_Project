@@ -1,6 +1,33 @@
-HELLO WORLD PROJECT
-This is a simple hello world project for Module 1 Weekday 2
+# Hello Microverse
 
-For this project I used:
-HTML: to add an h1 tag containing hello world
-CSS: to style the background color of my h1 tag to my favorite color and also chnage the color of the text.
+> This is a simple Hello Miroverse Project
+
+
+Additional description about the project and its features.
+
+## Built With
+
+- HTML- Hypertext Markup Language
+- CSS - Cascading Style Sheets
+
+## Authors
+
+@mckent05: Akinlade Temitope
+
+- GitHub: [@githubhandle](https://github.com/mckent05)
+- Twitter: [@twitterhandle](https://twitter.com/mckent05)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Akinlade Temitope)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
