@@ -13,23 +13,23 @@
   * {
     box-sizing: content-box;
   }
-
+  
   .main-nav {
     position: absolute;
     width: 375px;
     height: 92px;
     left: 0;
-    top: 0;  
+    top: 0;
   }
 
   .status-bar {
     position: absolute;
     width: 375px;
     height: 44px;
-    left: calc(50% - 375px/2);
-    top: 0px; 
+    left: calc(50% - 375px / 2);
+    top: 0; 
   }
-  
+
   .time-style {
     position: absolute;
     width: 54px;
@@ -48,11 +48,11 @@
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.28px;
-    color: #ffffff;
+    color: #fff;
     position: absolute;
     width: 54px;
     height: 16px;
-    left: 0px;
+    left: 0;
   }
 
   .group-4 {
@@ -62,6 +62,7 @@
     left: 270.67px;
     top: 17.33px;
   }
+
   .group {
     width: 100%;
     height: 100%;
@@ -92,10 +93,10 @@
 
   .tool-bar {
     position: absolute;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     top: 44px;
-    bottom: 0px;
+    bottom: 0;
   }
 
   .normal-button {
@@ -103,12 +104,10 @@
     width: 66px;
     height: 66px;
     right: 24px;
-    top: calc(50% - 66px/2);
+    top: calc(50% - 66px / 2);
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 8px;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -130,7 +129,7 @@
     width: 150px;
     height: 36px;
     left: 12px;
-    top: calc(50% - 36px/2);
+    top: calc(50% - 36px / 2);
   }
 
   .logo p {
@@ -146,7 +145,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 16px;
-    color: #ffffff;
+    color: #fff;
     text-transform: capitalize;
   }
 
@@ -167,7 +166,7 @@
     position: absolute;
     width: 160px;
     height: 160px;
-    left: 10px;
+    left: -20px;
     top: -50px;
   }
 
@@ -202,7 +201,7 @@
     align-items: center;
   }
 
-  .primary-text h1{
+  .primary-text h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -238,11 +237,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-    position: static;
+    position: absolute;
     width: 327px;
     height: 738.15px;
     left: 15px;
-    position: absolute;
     top: 214px;
   }
 
@@ -509,7 +507,7 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
-    color: #F5F5FF;
+    color: #f5f5ff;
   }
 
   .frame-lang3 {
@@ -567,7 +565,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     position: absolute;
     width: 122px;
     height: 224px;
@@ -579,11 +577,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 8px;
+    padding: 0 8px;
     position: absolute;
     width: 92px;
     height: 181.33px;
-    left: 0px;
+    left: 0;
     top: 42.67px;
   }
 
@@ -595,8 +593,8 @@
     position: static;
     width: 122px;
     height: 26.67px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   .skill-name p {
@@ -612,12 +610,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     position: absolute;
     width: 76px;
     height: 32px;
     left: 8px;
-    top: 0px;
+    top: 0;
   }
 
   .skill1 p {
@@ -629,14 +627,14 @@
     display: flex;
     align-items: center;
     margin: 0;
-    color: #f5f5ff
+    color: #f5f5ff;
   }
 
   .skill2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     position: absolute;
     width: 76px;
     height: 32px;
@@ -660,7 +658,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     position: absolute;
     width: 76px;
     height: 32px;
@@ -684,7 +682,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     position: absolute;
     width: 76px;
     height: 32px;
@@ -708,7 +706,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0px;
+    padding: 8px 0;
     position: absolute;
     width: 76px;
     height: 32px;
@@ -732,7 +730,7 @@
     position: absolute;
     width: 327px;
     height: 17px;
-    left: 0px;
+    left: 0;
     top: 480.15px;
     display: flex;
     align-items: center;
@@ -741,7 +739,7 @@
   .social-media {
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: absolute;
     width: 200px;
     height: 104px;
@@ -769,8 +767,8 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   .social1 img {
@@ -789,7 +787,7 @@
     width: 40px;
     height: 40px;
     left: 40px;
-    top: 0px;
+    top: 0;
   }
 
   .social2 img {
@@ -808,7 +806,7 @@
     width: 40px;
     height: 40px;
     left: 80px;
-    top: 0px;
+    top: 0;
   }
 
   .social3 img {
@@ -827,7 +825,7 @@
     width: 40px;
     height: 40px;
     left: 120px;
-    top: 0px;  
+    top: 0;  
   }
 
   .social4 img {
@@ -846,7 +844,7 @@
     width: 40px;
     height: 40px;
     left: 160px;
-    top: 0px;
+    top: 0;
   }
 
   .social5 img {
@@ -860,7 +858,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 0px;
+    padding: 4px 0;
     position: absolute;
     width: 77px;
     height: 40px;
@@ -872,7 +870,7 @@
     position: absolute;
     width: 18px;
     height: 21.3px;
-    left: 0px;
+    left: 0;
     top: 9.35px;
   }
 
@@ -894,5 +892,4 @@
     margin: 0;
     color: #a2a3ae;
   }
-  
 }
