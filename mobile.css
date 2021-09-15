@@ -27,9 +27,9 @@
     width: 375px;
     height: 44px;
     left: calc(50% - 375px / 2);
-    top: 0; 
+    top: 0;
   }
-
+  
   .time-style {
     position: absolute;
     width: 54px;
@@ -41,7 +41,7 @@
   }
 
   .time {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -202,7 +202,7 @@
   }
 
   .primary-text h1 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -223,7 +223,7 @@
   }
 
   .support-text h3 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -257,7 +257,7 @@
   }
 
   .description p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -333,7 +333,7 @@
   }
 
   .lang p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -362,6 +362,7 @@
   }
 
   .code-lang p {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -379,7 +380,7 @@
   }
 
   .code-lang2 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -396,7 +397,7 @@
   }
 
   .code-lang3 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -413,7 +414,7 @@
   }
 
   .code-lang4 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -466,7 +467,7 @@
   }
 
   .frame-lang p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -484,7 +485,7 @@
   }
 
   .frame-lang1 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -502,7 +503,7 @@
   }
 
   .frame-lang2 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -519,7 +520,7 @@
   }
 
   .frame-lang3 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -531,12 +532,12 @@
     position: absolute;
     width: 73.55px;
     height: 30.97px;
-    left: 0px;
+    left: 0;
     top: 62.55px;
   }
 
   .frame-lang4 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -548,12 +549,12 @@
     position: absolute;
     width: 73.55px;
     height: 30.97px;
-    left: 0px;
+    left: 0;
     top: 89.55px;
   }
 
   .frame-lang5 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -569,7 +570,7 @@
     position: absolute;
     width: 122px;
     height: 224px;
-    left: 0px;
+    left: 0;
     top: 238.15px;
   }
 
@@ -598,7 +599,7 @@
   }
 
   .skill-name p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -619,7 +620,7 @@
   }
 
   .skill1 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -643,7 +644,7 @@
   }
 
   .skill2 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -667,7 +668,7 @@
   }
 
   .skill3 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -691,7 +692,7 @@
   }
 
   .skill4 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -715,7 +716,7 @@
   }
 
   .skill5 p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -751,12 +752,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: static;
     width: 200px;
     height: 40px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   .social1 {
@@ -825,7 +826,7 @@
     width: 40px;
     height: 40px;
     left: 120px;
-    top: 0;  
+    top: 0;
   }
 
   .social4 img {
@@ -883,7 +884,7 @@
   }
 
   .work p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
