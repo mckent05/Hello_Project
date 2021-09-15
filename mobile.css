@@ -29,7 +29,7 @@
     left: calc(50% - 375px / 2);
     top: 0;
   }
-  
+
   .time-style {
     position: absolute;
     width: 54px;
@@ -387,7 +387,7 @@
     line-height: 24px;
     color: #f5f5ff;
   }
-  
+
   .code-lang3 {
     position: absolute;
     width: 68.08px;
