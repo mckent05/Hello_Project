@@ -13,7 +13,7 @@
   * {
     box-sizing: content-box;
   }
-  
+
   .main-nav {
     position: absolute;
     width: 375px;
@@ -140,7 +140,7 @@
     height: 16px;
     left: 12px;
     top: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
