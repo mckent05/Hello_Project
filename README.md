@@ -1,6 +1,11 @@
 # Hello Microverse
 
 > This is a simple Hello Miroverse Project.
+> If you would like to make this project, below are the steps you could follow
+    - Visit my profile https://github.com/mckent05/Hello_Project.git
+    - On your IDE use the command 'git clone https://github.com/mckent05/Hello_Project.git'
+    -After cloning into my project, you can go ahead to edit both the html and css files.
+    - I hope this helps.
 
 
 Additional description about the project and its features.
