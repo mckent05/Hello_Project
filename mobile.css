@@ -132,12 +132,12 @@
     top: calc(50% - 36px / 2);
   }
 
-  .logo p {
+  .logo img {
     position: static;
     display: flex;
     align-items: center;
-    width: 150px;
-    height: 16px;
+    width: 50px;
+    height: 50px;
     left: 12px;
     top: 10px;
     font-family: 'Roboto', sans-serif;
