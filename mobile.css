@@ -351,6 +351,7 @@
     height: 128.67px;
     left: 0;
     top: 38.67px;
+    list-style: none;
   }
 
   .code-lang {
@@ -444,6 +445,7 @@
     height: 175.48px;
     left: 0;
     top: 38.67px;
+    list-style: none;
   }
 
   .frame-head {
@@ -583,7 +585,7 @@
     width: 92px;
     height: 181.33px;
     left: 0;
-    top: 42.67px;
+    top: 30.67px;
   }
 
   .skill-name {
