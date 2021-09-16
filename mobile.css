@@ -760,6 +760,7 @@
     height: 40px;
     left: 0;
     top: 0;
+    list-style-type: none;
   }
 
   .social1 {
