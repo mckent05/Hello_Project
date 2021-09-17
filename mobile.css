@@ -898,8 +898,9 @@
   }
 
   .work-section {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     align-items: center;
     padding: 120px 0;
     position: absolute;
@@ -1065,7 +1066,7 @@
     top: 50px;
   }
 
-  .work-title p {
+  .work-title h1 {
     position: absolute;
     width: 327px;
     height: 104px;
