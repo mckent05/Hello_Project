@@ -897,7 +897,7 @@
     color: #a2a3ae;
   }
 
-  .work-section{
+  .work-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -906,7 +906,7 @@
     width: 375px;
     height: 3461px;
     left: 0;
-    top: 1175px; 
+    top: 1175px;
   }
 
   .recent-work {
@@ -921,7 +921,6 @@
     height: 3036px;
     left: 12px;
     top: 300px;
-    
   }
 
   .work-cont {
@@ -942,7 +941,7 @@
     height: 105px;
     left: 0;
     top: 0;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -970,7 +969,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: static;
     width: 312px;
     height: 40px;
@@ -992,6 +991,7 @@
     color: #fff;
     border-right: 1px solid grey;
   }
+
   .list2 {
     display: flex;
     flex-direction: row;
@@ -1017,7 +1017,7 @@
     left: 139px;
     top: 0;
     color: #fff;
-    border-right: 1px solid grey; 
+    border-right: 1px solid grey;
   }
 
   .list4 {
@@ -1031,7 +1031,7 @@
     left: 251px;
     top: 0;
     color: #fff;
-    border-right: 1px solid grey; 
+    border-right: 1px solid grey;
   }
 
   .proj-btn {
@@ -1052,8 +1052,6 @@
     line-height: 24px;
     color: #fff;
   }
-
-  
 
   .work-title {
     display: flex;
@@ -1080,7 +1078,7 @@
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #9490FF;
+    color: #9490ff;
     margin: 0;
   }
 
@@ -1111,7 +1109,7 @@
     width: 327px;
     height: 236px;
     left: 0;
-    top: 0 ;
+    top: 0;
     margin: 0;
   }
 
@@ -1132,19 +1130,20 @@
     right: -5px;
     top: 650px;
     z-index: -999;
-    filter: opacity(0.75) ;
-    
+    filter: opacity(0.75);
   }
+
   .back3 {
     position: absolute;
     top: 1600px;
     left: 0;
   }
+
   .back4 {
     position: absolute;
     left: 75px;
     top: 2350px;
-    filter: opacity(0.75)
+    filter: opacity(0.75);
   }
 
   .work2 {
@@ -1155,7 +1154,7 @@
     position: absolute;
     width: 327px;
     height: 729px;
-    left: 0px;
+    left: 0;
     top: 769px;
   }
 
@@ -1212,62 +1211,7 @@
     top: 357px;
     list-style-type: none;
   }
-
-  .list1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 0;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-  .list2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 66px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-
-  .list3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 95px;
-    height: 30px;
-    left: 139px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
-  }
-
-  .list4 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 251px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
-  }
-
+ 
   .proj-btn1 {
     display: flex;
     flex-direction: row;
@@ -1353,61 +1297,6 @@
     list-style-type: none;
   }
 
-  .list1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 0;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-  .list2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 66px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-
-  .list3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 95px;
-    height: 30px;
-    left: 139px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
-  }
-
-  .list4 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 251px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
-  }
-
   .proj-btn2 {
     display: flex;
     flex-direction: row;
@@ -1491,61 +1380,6 @@
     left: 0;
     top: 357px;
     list-style-type: none;
-  }
-
-  .list1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 0;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-  .list2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 66px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey;
-  }
-
-  .list3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 95px;
-    height: 30px;
-    left: 139px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
-  }
-
-  .list4 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 12px;
-    position: static;
-    width: 49px;
-    height: 30px;
-    left: 251px;
-    top: 0;
-    color: #fff;
-    border-right: 1px solid grey; 
   }
 
   button:hover {
