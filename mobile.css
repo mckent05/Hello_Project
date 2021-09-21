@@ -1525,6 +1525,26 @@ button:hover {
   justify-content: center;
 }
 
+#input {
+  position: absolute;
+  height: 38px;
+  left: 0;
+  right: 0;
+  top: 0;
+  outline: 1px solid #fff;
+  width: 100%
+}
+
+#email {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 38px;
+  top: 17.66%;
+  outline: 1px solid #fff;
+  width: 100%;
+}
+
 @media screen and (max-width:375px) {
   .email-icon {
     display: none;
