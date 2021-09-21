@@ -1,6 +1,6 @@
 body {
   width: 375px;
-  height: 1670px;
+  height: 5415px;
   margin: 0;
   top: 0;
   left: 500px;
@@ -9,6 +9,8 @@ body {
   background-color: #191765;
   display: flex;
   justify-content: center;
+  z-index: 999;
+  box-shadow: 0 8px 8px;
 }
 
 * {
@@ -167,7 +169,7 @@ body {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: -20px;
+  left: 0;
   top: 70px;
 }
 
@@ -925,18 +927,6 @@ body {
   top: 300px;
 }
 
-.work-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: static;
-  width: 327px;
-  height: 469px;
-  left: 0;
-  top: 260px;
-}
-
 .project-title {
   position: static;
   width: 327px;
@@ -1104,6 +1094,7 @@ body {
   height: 729px;
   left: 0;
   top: 0;
+  z-index: 999;
 }
 
 .work1-img {
@@ -1158,6 +1149,7 @@ body {
   height: 729px;
   left: 0;
   top: 769px;
+  z-index: 999;
 }
 
 .work-cont1 {
@@ -1243,6 +1235,7 @@ body {
   height: 729px;
   left: 0;
   top: 1538px;
+  z-index: 999;
 }
 
 .work-cont2 {
@@ -1316,6 +1309,7 @@ body {
   font-size: 12px;
   line-height: 24px;
   color: #fff;
+  text-decoration: none;
 }
 
 .work4 {
@@ -1382,14 +1376,6 @@ body {
   left: 0;
   top: 357px;
   list-style-type: none;
-}
-
-button {
-  border: none;
-}
-
-button:hover {
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .proj-btn3 {
@@ -1580,7 +1566,7 @@ a {
   width: 355px;
   height: 125px;
   left: 0;
-  top: 850px;
+  bottom: 0;
 }
 
 .underline-footer {
@@ -1634,6 +1620,19 @@ a {
   border-radius: 2px;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:active {
+  background-color: #5e42d7;
+}
+
 @media screen and (max-width: 375px) {
   .email-icon {
     display: none;
@@ -1641,6 +1640,7 @@ a {
 
   body {
     left: 0;
+    box-shadow: none;
   }
 
   .contact-me h2:last-of-type {

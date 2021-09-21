@@ -3,6 +3,11 @@
 > This is my Portfolio Project
 > I created this project using Figma templates provided by Microverse
 
+# Getting Started
+
+> Visit my repository www.https://github.com/mckent05/Portfolio_Project.git
+> Clone the repository in your code editor using the URL above.
+> Change directory into the repository and make your desried changes.
 
 
 Additional description about the project and its features.
