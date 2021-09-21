@@ -168,14 +168,14 @@ body {
   width: 160px;
   height: 160px;
   left: -20px;
-  top: -50px;
+  top: 70px;
 }
 
 .eclipse2 {
   position: absolute;
   width: 68px;
   height: 68px;
-  right: 33px;
+  right: 3px;
   top: 475px;
   
 }
@@ -345,6 +345,8 @@ body {
 }
 
 .lang-cont {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   padding: 0 7.16667px;
   position: absolute;
@@ -354,7 +356,6 @@ body {
   top: 38.67px;
   list-style: none;
 }
-
 
 .code-lang {
   position: absolute;
@@ -967,8 +968,11 @@ body {
   line-height: 28px;
   color: #dcdce8;
 }
-/*
+
 .tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 0;
   position: static;
   width: 312px;
@@ -976,14 +980,6 @@ body {
   left: 0;
   top: 357px;
   list-style-type: none;
-}
-*/
-
-.tag, .tag1, .tag2, .tag3 li {
-  float: left;
-  margin: 0px;
-  color: #fff;
-  top: 0;
 }
 
 .list1 {
@@ -1027,7 +1023,7 @@ body {
   color: #fff;
   border-right: 1px solid grey;
 }
-/*
+
 .list4 {
   display: flex;
   flex-direction: row;
@@ -1041,7 +1037,6 @@ body {
   color: #fff;
   border-right: 1px solid grey;
 }
-*/
 
 .proj-btn {
   display: flex;
@@ -1136,7 +1131,7 @@ body {
 
 .back2 {
   position: absolute;
-  right: -5px;
+  right: -15px;
   top: 650px;
   z-index: -999;
   filter: opacity(0.75);
@@ -1150,7 +1145,7 @@ body {
 
 .back4 {
   position: absolute;
-  left: 75px;
+  left: 95px;
   top: 2350px;
   filter: opacity(0.75);
 }
@@ -1377,7 +1372,7 @@ body {
   line-height: 28px;
   color: #dcdce8;
 }
-/*
+
 .tag3 {
   display: flex;
   flex-direction: row;
@@ -1390,7 +1385,6 @@ body {
   top: 357px;
   list-style-type: none;
 }
- */
 
 button {
   border: none;
@@ -1417,6 +1411,46 @@ button:hover {
   font-size: 12px;
   line-height: 24px;
   color: #fff;
+}
+
+.email-icon {
+  display: none;
+}
+
+.contact-me h2:last-of-type {
+  display: none;
+}
+
+.item-links {
+  display: none;
+}
+
+.big-circle1 {
+  display: none;
+}
+
+.big-circle2 {
+  display: none;
+}
+
+.desk1 {
+  display: none;
+}
+
+.desk2 {
+  display: none;
+}
+
+.work-btn2 {
+  display: none;
+}
+
+.desk3 {
+  display: none;
+}
+
+.desk4 {
+  display: none;
 }
 
 .contact-form {
@@ -1491,113 +1525,44 @@ button:hover {
   justify-content: center;
 }
 
-#input {
-  position: absolute;
-  height: 38px;
-  left: 0;
-  right: 0;
-  top: 0;
-  outline: 1px solid #fff;
-  width: 100%
+@media screen and (max-width:375px) {
+  .email-icon {
+    display: none;
+  }
+  
+  .contact-me h2:last-of-type {
+    display: none;
+  }
+
+  .item-links {
+    display: none;
+  }
+  
+  .big-circle1 {
+    display: none;
+  }
+  
+  .big-circle2 {
+    display: none;
+  }
+  
+  .desk1 {
+    display: none;
+  }
+  
+  .desk2 {
+    display: none;
+  }
+  
+  .work-btn2 {
+    display: none;
+  }
+  
+  .desk3 {
+    display: none;
+  }
+  
+  .desk4 {
+    display: none;
+  }
 }
-
-#email {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 38px;
-  top: 17.66%;
-  outline: 1px solid #fff;
-  width: 100%;
-}
-
-#message {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 35.32%;
-  outline: 1px solid #fff;
-  width: 100%;
-}
-
-.submit-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: absolute;
-  width: 89px;
-  height: 28px;
-  left: 118px;
-  bottom: 1%;
-  background-color: #7d73fc;
-  color: #fff;
-  text-transform: capitalize;
-  font-family: 'Roboto', sans-serif;
-  justify-content: center;
-}
-
-a {
-  cursor: pointer;
-}
-
-.footer {
-  position: absolute;
-  width: 355px;
-  height: 125px;
-  left: 0px;
-  top: 5291px;
-}
-
-.underline-footer {
-  position: absolute;
-  height: 1px;
-  left: 10px;
-  right: 0;
-  top: 0;
-  background: #3A3837;
-}
-
-.footer-social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: absolute;
-  width: 200px;
-  height: 70px;
-  left: 20%;
-  top: 16px;
-}
-
-.footer-social-media p {
-  bottom: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  text-align: center;
-  left: 10%;
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
-}
-
-.black-underline {
-  position: absolute;
-  width: 355px;
-  height: 34px;
-  left: 0;
-  bottom: 0;
-}
-
-.underline-bottom {
-  position: absolute;
-  height: 3px;
-  bottom: 0;
-  background: black;
-  width: 50%;
-  margin: 0 25%;
-  border-radius: 2px ;
-}
-
-
