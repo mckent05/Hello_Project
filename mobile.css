@@ -1,14 +1,16 @@
 body {
   width: 375px;
-  height: 1670px;
+  height: 5415px;
   margin: 0;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 500px;
   bottom: 0;
+  position: absolute;
   background-color: #191765;
   display: flex;
   justify-content: center;
+  z-index: 999;
+  box-shadow: 0 8px 8px;
 }
 
 * {
@@ -159,7 +161,7 @@ body {
 }
 
 .images {
-  width: 100%;
+  width: 93%;
   height: 100%;
 }
 
@@ -167,15 +169,15 @@ body {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: -20px;
-  top: -50px;
+  left: 0;
+  top: 70px;
 }
 
 .eclipse2 {
-  position: absolute;
+  position: relative;
   width: 68px;
   height: 68px;
-  right: 40px;
+  right: -280px;
   top: 475px;
 }
 
@@ -925,18 +927,6 @@ body {
   top: 300px;
 }
 
-.work-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: static;
-  width: 327px;
-  height: 469px;
-  left: 0;
-  top: 260px;
-}
-
 .project-title {
   position: static;
   width: 327px;
@@ -1104,6 +1094,7 @@ body {
   height: 729px;
   left: 0;
   top: 0;
+  z-index: 999;
 }
 
 .work1-img {
@@ -1124,12 +1115,12 @@ body {
 }
 
 .work-backg img {
-  width: 300px;
+  width: 285px;
 }
 
 .back2 {
   position: absolute;
-  right: -5px;
+  right: -15px;
   top: 650px;
   z-index: -999;
   filter: opacity(0.75);
@@ -1143,7 +1134,7 @@ body {
 
 .back4 {
   position: absolute;
-  left: 75px;
+  left: 95px;
   top: 2350px;
   filter: opacity(0.75);
 }
@@ -1158,6 +1149,7 @@ body {
   height: 729px;
   left: 0;
   top: 769px;
+  z-index: 999;
 }
 
 .work-cont1 {
@@ -1243,6 +1235,7 @@ body {
   height: 729px;
   left: 0;
   top: 1538px;
+  z-index: 999;
 }
 
 .work-cont2 {
@@ -1316,6 +1309,7 @@ body {
   font-size: 12px;
   line-height: 24px;
   color: #fff;
+  text-decoration: none;
 }
 
 .work4 {
@@ -1384,14 +1378,6 @@ body {
   list-style-type: none;
 }
 
-button {
-  border: none;
-}
-
-button:hover {
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-}
-
 .proj-btn3 {
   display: flex;
   flex-direction: row;
@@ -1409,4 +1395,287 @@ button:hover {
   font-size: 12px;
   line-height: 24px;
   color: #fff;
+}
+
+.email-icon {
+  display: none;
+}
+
+.item-links {
+  display: none;
+}
+
+.big-circle1 {
+  display: none;
+}
+
+.big-circle2 {
+  display: none;
+}
+
+.desk1 {
+  display: none;
+}
+
+.desk2 {
+  display: none;
+}
+
+.work-btn2 {
+  display: none;
+}
+
+.desk3 {
+  display: none;
+}
+
+.desk4 {
+  display: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  position: absolute;
+  width: 340px;
+  height: 824px;
+  left: 0;
+  top: 4516px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 327px;
+  height: 164px;
+  left: 12px;
+  top: 120px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 327px;
+  height: 392px;
+  left: 12px;
+  top: 324px;
+  justify-content: center;
+}
+
+.contact-me h2 {
+  position: static;
+  width: 327px;
+  height: 35px;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #9390ff;
+}
+
+.contact-me h2:last-of-type {
+  display: none;
+}
+
+.contact-me p {
+  position: absolute;
+  width: 327px;
+  height: 105px;
+  left: 0;
+  top: 59px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  justify-content: center;
+}
+
+#input {
+  position: absolute;
+  height: 38px;
+  left: 0;
+  right: 0;
+  top: 0;
+  outline: 1px solid #fff;
+  width: 100%;
+}
+
+#email {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 38px;
+  top: 17.66%;
+  outline: 1px solid #fff;
+  width: 100%;
+}
+
+#message {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35.32%;
+  outline: 1px solid #fff;
+  max-width: 100%;
+  width: 100%;
+  max-height: 70%;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 89px;
+  height: 28px;
+  left: 118px;
+  bottom: 1%;
+  background-color: #7d73fc;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  width: 355px;
+  height: 125px;
+  left: 0;
+  bottom: 0;
+}
+
+.underline-footer {
+  position: absolute;
+  height: 1px;
+  left: 10px;
+  right: 0;
+  top: 0;
+  background: #3a3837;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  left: 20%;
+  top: 16px;
+}
+
+.footer-social-media p {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  left: 10%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.black-underline {
+  position: absolute;
+  width: 355px;
+  height: 34px;
+  left: 0;
+  bottom: 0;
+}
+
+.underline-bottom {
+  position: absolute;
+  height: 3px;
+  bottom: 0;
+  background: black;
+  width: 50%;
+  margin: 0 25%;
+  border-radius: 2px;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:active {
+  background-color: #5e42d7;
+}
+
+@media screen and (max-width: 375px) {
+  .email-icon {
+    display: none;
+  }
+
+  body {
+    left: 0;
+    box-shadow: none;
+  }
+
+  .contact-me h2:last-of-type {
+    display: none;
+  }
+
+  .item-links {
+    display: none;
+  }
+
+  .big-circle1 {
+    display: none;
+  }
+
+  .big-circle2 {
+    display: none;
+  }
+
+  .desk1 {
+    display: none;
+  }
+
+  .desk2 {
+    display: none;
+  }
+
+  .work-btn2 {
+    display: none;
+  }
+
+  .desk3 {
+    display: none;
+  }
+
+  .desk4 {
+    display: none;
+  }
 }
