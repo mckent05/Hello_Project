@@ -1634,7 +1634,7 @@ a {
   border-radius: 2px;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   .email-icon {
     display: none;
   }
@@ -1650,31 +1650,31 @@ a {
   .item-links {
     display: none;
   }
-  
+
   .big-circle1 {
     display: none;
   }
-  
+
   .big-circle2 {
     display: none;
   }
-  
+
   .desk1 {
     display: none;
   }
-  
+
   .desk2 {
     display: none;
   }
-  
+
   .work-btn2 {
     display: none;
   }
-  
+
   .desk3 {
     display: none;
   }
-  
+
   .desk4 {
     display: none;
   }
