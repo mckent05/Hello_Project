@@ -1545,6 +1545,39 @@ button:hover {
   width: 100%;
 }
 
+
+#message {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35.32%;
+  outline: 1px solid #fff;
+  max-width: 100%;
+  width: 100%;
+  max-height: 70%;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 89px;
+  height: 28px;
+  left: 118px;
+  bottom: 1%;
+  background-color: #7d73fc;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer;
+}
+
 @media screen and (max-width:375px) {
   .email-icon {
     display: none;
