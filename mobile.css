@@ -3,9 +3,9 @@ body {
   height: 1670px;
   margin: 0;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 500px;
   bottom: 0;
+  position: absolute;
   background-color: #191765;
   display: flex;
   justify-content: center;
@@ -172,12 +172,11 @@ body {
 }
 
 .eclipse2 {
-  position: absolute;
+  position: relative;
   width: 68px;
   height: 68px;
-  right: 3px;
+  right: -280px;
   top: 475px;
-  
 }
 
 .name-header {
@@ -284,7 +283,6 @@ body {
   left: 0;
   right: 0;
   border: 1px solid grey;
-
 }
 
 .skills {
@@ -1417,10 +1415,6 @@ button:hover {
   display: none;
 }
 
-.contact-me h2:last-of-type {
-  display: none;
-}
-
 .item-links {
   display: none;
 }
@@ -1481,7 +1475,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   width: 327px;
   height: 392px;
@@ -1509,6 +1503,10 @@ button:hover {
   color: #9390ff;
 }
 
+.contact-me h2:last-of-type {
+  display: none;
+}
+
 .contact-me p {
   position: absolute;
   width: 327px;
@@ -1532,7 +1530,7 @@ button:hover {
   right: 0;
   top: 0;
   outline: 1px solid #fff;
-  width: 100%
+  width: 100%;
 }
 
 #email {
@@ -1544,7 +1542,6 @@ button:hover {
   outline: 1px solid #fff;
   width: 100%;
 }
-
 
 #message {
   position: absolute;
@@ -1582,8 +1579,8 @@ a {
   position: absolute;
   width: 355px;
   height: 125px;
-  left: 0px;
-  top: 5291px;
+  left: 0;
+  top: 850px;
 }
 
 .underline-footer {
@@ -1592,7 +1589,7 @@ a {
   left: 10px;
   right: 0;
   top: 0;
-  background: #3A3837;
+  background: #3a3837;
 }
 
 .footer-social-media {
@@ -1634,14 +1631,18 @@ a {
   background: black;
   width: 50%;
   margin: 0 25%;
-  border-radius: 2px ;
+  border-radius: 2px;
 }
 
 @media screen and (max-width:375px) {
   .email-icon {
     display: none;
   }
-  
+
+  body {
+    left: 0;
+  }
+
   .contact-me h2:last-of-type {
     display: none;
   }
