@@ -68,11 +68,11 @@ body {
   display: none;
 }
 
-.big-circle1{
+.big-circle1 {
   display: none;
 }
 
-.big-circle2{
+.big-circle2 {
   display: none;
 }
 
@@ -1497,25 +1497,6 @@ body {
   justify-content: center;
 }
 
-.contact-me h2 {
-  position: static;
-  width: 327px;
-  height: 35px;
-  left: 0;
-  top: 0;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: center;
-  color: #9390ff;
-}
-
 .contact-me p {
   position: absolute;
   width: 327px;
@@ -1701,6 +1682,11 @@ button:active {
   body {
     left: 0;
     box-shadow: none;
+    height: 5461px;
+  }
+
+  .contact-form {
+    height: 500px;
   }
 }
 
@@ -2313,7 +2299,7 @@ button:active {
     position: absolute;
     width: 684px;
     height: 627px;
-    left: 378px;
+    left: 25%;
     top: 3720px;
   }
 
