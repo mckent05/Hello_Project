@@ -21,6 +21,25 @@ body {
   width: 340px;
 }
 
+.contact-me h2 {
+  position: static;
+  width: 327px;
+  height: 35px;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #9390ff;
+}
+
 .contact-me h2:last-of-type {
   display: none;
 }
@@ -46,6 +65,14 @@ body {
 }
 
 .desk4 {
+  display: none;
+}
+
+.big-circle1{
+  display: none;
+}
+
+.big-circle2{
   display: none;
 }
 
@@ -1489,10 +1516,6 @@ body {
   color: #9390ff;
 }
 
-.contact-me h2:last-of-type {
-  display: none;
-}
-
 .contact-me p {
   position: absolute;
   width: 327px;
@@ -1687,6 +1710,9 @@ button:active {
     width: 1330px;
     height: 4651px;
     display: grid;
+    left: 0;
+    box-shadow: none;
+    
   }
 
   .main-nav {
@@ -1750,6 +1776,7 @@ button:active {
     height: 184px;
     left: 0;
     top: 0;
+    display: flex;
   }
 
   .big-circle2 {
@@ -1758,6 +1785,7 @@ button:active {
     height: 184px;
     right: 0;
     bottom: 0;
+    display: flex;
   }
 
   .item-links {
@@ -1934,7 +1962,7 @@ button:active {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     position: absolute;
     width: 290.82px;
     height: 224px;
@@ -1950,7 +1978,7 @@ button:active {
 
   .underline2 {
     position: absolute;
-    width:448px;
+    width: 448px;
     top: 220px;
   }
 
@@ -1970,6 +1998,7 @@ button:active {
     position: absolute;
     top: 10%;
     right: -160%;
+    display: flex;
   }
 
   .work-btn2 .work {
@@ -1981,7 +2010,7 @@ button:active {
   .work-section {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 155px 2056px ;
+    grid-template-rows: 155px 2056px;
     align-items: center;
     row-gap: 100px;
     padding: 114px 0;
@@ -2131,7 +2160,8 @@ button:active {
     left: 0;
     top: 0;
   }
-.work2-link img {
+
+  .work2-link img {
     position: relative;
     width: 100%;
     height: 100%;
@@ -2188,7 +2218,10 @@ button:active {
     top: 1445px;
   }
 
-  .back1, .back2, .back3, .back4 {
+  .back1,
+  .back2,
+  .back3,
+  .back4 {
     display: none;
   }
 
@@ -2240,7 +2273,7 @@ button:active {
     left: 0;
     display: flex;
     align-items: center;
-    height: 60px
+    height: 60px;
   }
 
   .black-underline {
@@ -2270,12 +2303,6 @@ button:active {
     width: 45%;
     display: flex;
     align-items: center;
-  }
-
-  body {
-    left: 0;
-    box-shadow: none;
-    height: 4651px;
   }
 
   .contact-form {
@@ -2308,14 +2335,14 @@ button:active {
   }
 
   #message {
-    top:50%;
+    top: 50%;
     position: absolute;
   }
 
   .submit-btn {
     position: absolute;
     top: 130%;
-    left:42%
+    left: 42%;
   }
 
   .contact-me h2:first-of-type {
