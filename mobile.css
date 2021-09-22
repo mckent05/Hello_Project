@@ -29,14 +29,6 @@ body {
   display: none;
 }
 
-.big-circle1 {
-  display: none;
-}
-
-.big-circle2 {
-  display: none;
-}
-
 .desk1 {
   display: none;
 }
@@ -2139,8 +2131,7 @@ button:active {
     left: 0;
     top: 0;
   }
-  
-  .work2-link img {
+.work2-link img {
     position: relative;
     width: 100%;
     height: 100%;
@@ -2197,10 +2188,7 @@ button:active {
     top: 1445px;
   }
 
-  .back1,
-  .back2,
-  .back3,
-  .back4 {
+  .back1, .back2, .back3, .back4 {
     display: none;
   }
 
@@ -2211,6 +2199,7 @@ button:active {
     left: 0;
     top: -50px;
     z-index: -999;
+    display: flex;
   }
 
   .desk2 {
@@ -2220,6 +2209,7 @@ button:active {
     right: -1.35%;
     top: 766px;
     z-index: -999;
+    display: flex;
   }
 
   .desk3 {
@@ -2229,6 +2219,7 @@ button:active {
     left: -11px;
     top: 1372px;
     z-index: -999;
+    display: flex;
   }
 
   .desk4 {
@@ -2239,6 +2230,7 @@ button:active {
     top: 1388px;
     z-index: -999;
     filter: brightness(0.8);
+    display: flex;
   }
 
   .footer {
@@ -2248,7 +2240,7 @@ button:active {
     left: 0;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 60px
   }
 
   .black-underline {
@@ -2316,14 +2308,14 @@ button:active {
   }
 
   #message {
-    top: 50%;
+    top:50%;
     position: absolute;
   }
 
   .submit-btn {
     position: absolute;
     top: 130%;
-    left: 42%
+    left:42%
   }
 
   .contact-me h2:first-of-type {
