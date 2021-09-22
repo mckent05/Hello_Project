@@ -1689,13 +1689,14 @@ button:active {
   }
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width: 500px) {
   body {
     position: relative;
     width: 1330px;
     height: 4651px;
     display: grid;
-}
+  }
+
   .main-nav {
     position: relative;
     width: 1330px;
@@ -1705,7 +1706,8 @@ button:active {
     z-index: 999;
   }
 
-  .status-bar, .normal-button {
+  .status-bar,
+  .normal-button {
     display: none;
   }
 
@@ -1733,7 +1735,8 @@ button:active {
     width: 184px;
   }
 
-  .eclipse1, .eclipse2 {
+  .eclipse1,
+  .eclipse2 {
     display: none;
   }
 
@@ -1741,13 +1744,14 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 0px;
+    padding: 114px 0;
     position: absolute;
     width: 1156px;
     height: 1121px;
     left: 100px;
     top: 72px;
   }
+
   .big-circle1 {
     position: absolute;
     width: 184px;
@@ -1768,7 +1772,7 @@ button:active {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     position: absolute;
     width: 241px;
     height: 40px;
@@ -1788,9 +1792,8 @@ button:active {
     height: 40px;
     left: 164px;
     top: 0;
-    
   }
-  
+
   .item2 {
     display: flex;
     flex-direction: row;
@@ -1892,7 +1895,7 @@ button:active {
     font-weight: 800;
     font-size: 40px;
     line-height: 47px;
-    text-align: center
+    text-align: center;
   }
 
   .content2 {
@@ -2134,9 +2137,9 @@ button:active {
     width: 684px;
     height: 448px;
     left: 0;
-    top: 0;    
+    top: 0;
   }
-
+  
   .work2-link img {
     position: relative;
     width: 100%;
@@ -2194,7 +2197,10 @@ button:active {
     top: 1445px;
   }
 
-  .back1, .back2, .back3, .back4 {
+  .back1,
+  .back2,
+  .back3,
+  .back4 {
     display: none;
   }
 
@@ -2242,7 +2248,7 @@ button:active {
     left: 0;
     display: flex;
     align-items: center;
-    height: 60px
+    height: 60px;
   }
 
   .black-underline {
@@ -2310,14 +2316,14 @@ button:active {
   }
 
   #message {
-    top:50%;
+    top: 50%;
     position: absolute;
   }
 
   .submit-btn {
     position: absolute;
     top: 130%;
-    left:42%
+    left: 42%
   }
 
   .contact-me h2:first-of-type {
