@@ -199,7 +199,7 @@ body {
 }
 
 .logo img {
-  position: static;
+  position: relative;
   display: flex;
   align-items: center;
   width: 50px;
@@ -213,36 +213,31 @@ body {
   line-height: 16px;
   color: #fff;
   text-transform: capitalize;
+  animation: tope 1.5s 1;
 }
 
-.logo img {
-    position: relative;
-    animation: tope 1.5s linear 1;
+@keyframes tope {
+  0% {
+    transform: translateX(-100%);
   }
 
-  @keyframes tope {
-    0% {
-      transform: translateX(-100%);
-    }
-
-    50% {
-      transform: translateX(-50%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
-
+  50% {
+    transform: translateX(-50%);
   }
 
-  .recent-work > div {
-    transition: ease-in-out 1s;
+  100% {
+    transform: translateX(0%);
   }
+}
 
-  .recent-work > div:hover{
-    box-shadow: 1px 2px 6px rgba(125, 115, 252, 0.48);
-    border-radius: 8px;
-  }
+.recent-work > div {
+  transition: ease-in-out 1s;
+}
+
+.recent-work > div:hover {
+  box-shadow: 1px 2px 6px rgba(125, 115, 252, 0.48);
+  border-radius: 8px;
+}
   
 .content {
   position: absolute;
@@ -1658,7 +1653,6 @@ a {
 button {
   outline: none;
   border: none;
-  transition: ease-in-out 0.5s;
 }
 
 button:hover {
@@ -1894,7 +1888,7 @@ button:active {
     height: 40px;
     right: 98px;
     top: calc(50% - 40px / 2);
-    /*animation: item 1.5s linear 1; */
+    animation: item 1.5s linear 1;
   }
 
   @keyframes item {
@@ -1908,7 +1902,7 @@ button:active {
 
     100% {
       transform: translateX(0%);
-    } 
+    }
   }
 
   .name-header {
@@ -2609,7 +2603,7 @@ button:active {
 
     100% {
       transform: translateX(0%);
-    } 
+    }
   }
 
   .name-header {
