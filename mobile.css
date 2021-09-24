@@ -3,7 +3,8 @@ body {
   height: 5415px;
   margin: 0;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   right: 0;
   bottom: 0;
   position: absolute;
@@ -264,7 +265,7 @@ body {
   position: relative;
   width: 68px;
   height: 68px;
-  right: -280px;
+  right: -295px;
   top: 475px;
 }
 
@@ -1207,7 +1208,7 @@ body {
 
 .back2 {
   position: absolute;
-  right: -15px;
+  right: -30px;
   top: 650px;
   z-index: -999;
   filter: opacity(0.75);
@@ -1221,7 +1222,7 @@ body {
 
 .back4 {
   position: absolute;
-  left: 95px;
+  left: 105px;
   top: 2350px;
   filter: opacity(0.75);
 }
@@ -1239,79 +1240,6 @@ body {
   z-index: 999;
 }
 
-.work-cont1 {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: static;
-  width: 327px;
-  height: 469px;
-  left: 0;
-  top: 260px;
-}
-
-.project-title1 {
-  position: static;
-  width: 327px;
-  height: 105px;
-  left: 0;
-  top: 0;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-.project-desc1 {
-  position: static;
-  width: 327px;
-  height: 204px;
-  left: 0;
-  top: 129px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  color: #dcdce8;
-}
-
-.tag1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 312px;
-  height: 40px;
-  left: 0;
-  top: 357px;
-  list-style-type: none;
-}
-
-.proj-btn1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: static;
-  width: 69px;
-  height: 18px;
-  left: 0;
-  top: 421px;
-  background-color: #7d73fc;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-  color: #fff;
-}
-
 .work3 {
   display: flex;
   flex-direction: column;
@@ -1325,80 +1253,6 @@ body {
   z-index: 999;
 }
 
-.work-cont2 {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: static;
-  width: 327px;
-  height: 469px;
-  left: 0;
-  top: 260px;
-}
-
-.project-title2 {
-  position: static;
-  width: 327px;
-  height: 105px;
-  left: 0;
-  top: 0;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-.project-desc2 {
-  position: static;
-  width: 327px;
-  height: 204px;
-  left: 0;
-  top: 129px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  color: #dcdce8;
-}
-
-.tag2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 312px;
-  height: 40px;
-  left: 0;
-  top: 357px;
-  list-style-type: none;
-}
-
-.proj-btn2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: static;
-  width: 69px;
-  height: 18px;
-  left: 0;
-  top: 421px;
-  background-color: #7d73fc;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-  color: #fff;
-  text-decoration: none;
-}
-
 .work4 {
   display: flex;
   flex-direction: column;
@@ -1410,79 +1264,6 @@ body {
   left: 0;
   top: 2307px;
   z-index: 9999;
-}
-
-.work-cont3 {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  position: static;
-  width: 327px;
-  height: 469px;
-  left: 0;
-  top: 260px;
-}
-
-.project-title3 {
-  position: static;
-  width: 327px;
-  height: 105px;
-  left: 0;
-  top: 0;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-.project-desc3 {
-  position: static;
-  width: 327px;
-  height: 204px;
-  left: 0;
-  top: 129px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  color: #dcdce8;
-}
-
-.tag3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 312px;
-  height: 40px;
-  left: 0;
-  top: 357px;
-  list-style-type: none;
-}
-
-.proj-btn3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: static;
-  width: 69px;
-  height: 18px;
-  left: 0;
-  top: 421px;
-  background-color: #7d73fc;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-  color: #fff;
 }
 
 .contact-form {
@@ -1668,8 +1449,6 @@ button:active {
     display: none;
   }
 
-  
-
   .contact-me h2:last-of-type {
     display: none;
   }
@@ -1704,6 +1483,7 @@ button:active {
 
   body {
     left: 0;
+    transform: translateX(0);
     box-shadow: none;
     height: 5461px;
   }
@@ -1721,6 +1501,7 @@ button:active {
     display: grid;
     left: 0;
     box-shadow: none;
+    transform: translateX(0);
   }
 
   .close-btn {
@@ -2009,7 +1790,7 @@ button:active {
   .my-skills {
     position: relative;
     top: 0;
-    left: 70%;
+    left: 55%;
   }
 
   .underline2 {
@@ -2157,24 +1938,12 @@ button:active {
     top: 536px;
   }
 
-  .work-cont1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    position: absolute;
-    width: 448px;
-    height: 405px;
-    left: 0;
-    top: 30px;
+  .work2 a {
+    left: 41%;
   }
 
-  .work2 a {
-    position: absolute;
-    width: 684px;
-    height: 448px;
-    left: 472px;
-    top: 0;
+  .work2 > div {
+    left: 0;
   }
 
   .work3 {
@@ -2189,32 +1958,6 @@ button:active {
     top: 1072px;
   }
 
-  .work2-link {
-    position: static;
-    width: 684px;
-    height: 448px;
-    left: 0;
-    top: 0;
-  }
-
-  .work2-link img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  .work-cont2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    position: absolute;
-    width: 448px;
-    height: 405px;
-    left: 708px;
-    top: 30px;
-  }
-
   .work4 {
     display: flex;
     flex-direction: row;
@@ -2227,23 +1970,12 @@ button:active {
     top: 1608px;
   }
 
-  .work3-link {
-    position: absolute;
-    width: 684px;
-    height: 448px;
-    left: 472px;
-    top: 0;
+  .work4 a {
+    left: 41%;
   }
 
   .work4 > div {
     left: 0;
-    position: absolute;
-  }
-
-  .work3-link img {
-    position: relative;
-    width: 100%;
-    height: 100%;
   }
 
   .work-backg {
@@ -2415,14 +2147,14 @@ button:active {
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 992px) {
+@media screen and (min-width: 700px) and (max-width: 992px) {
   body {
     position: relative;
     width: 100vw;
-    height: 4651px;
     display: grid;
     left: 0;
     box-shadow: none;
+    transform: translateX(0);
   }
 
   .close-btn {
@@ -2456,9 +2188,9 @@ button:active {
 
   .images {
     position: absolute;
-    width: 100%px;
+    width: 100%;
     height: 535px;
-    left: 5%;
+    left: 0;
     top: 2%;
   }
 
@@ -2479,8 +2211,8 @@ button:active {
     position: absolute;
     width: 100%;
     height: 50vh;
-    left: 2%;
-    top: 72px;
+    left: 0;
+    top: 2%;
   }
 
   .big-circle1 {
@@ -2613,18 +2345,16 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100%;
-    height: 192px;
+    height:35%;
     left: 0;
     top: 5%;
   }
 
-
   .primary-text {
     position: absolute;
     width: 100%;
-    height: 20vh;
     left: 0;
-    top: 0;
+    top: 20%;
   }
 
   .primary-text h1 {
@@ -2640,7 +2370,6 @@ button:active {
   .support-text {
     position: absolute;
     width: 100%;
-    height: 72px;
     left: 0;
     top: 70%;
   }
@@ -2661,16 +2390,15 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100%;
-    height: 485px;
     left: 0;
-    top: 50%;
+    top: 40%;
+    margin-top: 2%;
   }
 
   .description {
     position: absolute;
     width: 100%;
-    height: 155px;
-    left: 0.5px;
+    left: 0;
     top: 0;
   }
 
@@ -2689,10 +2417,11 @@ button:active {
 
   .underline {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 17px;
-    left: 0;
-    top: 172px;
+    left: 25%;
+    top: 14%;
+    margin-bottom: 20px;
   }
 
   .skills {
@@ -2702,11 +2431,11 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100vw;
-    height: 224px;
-    left: 0;
-    top: 500px;
+    left: 5%;
+    top: 65%;
     justify-content: center;
   }
+
   .lang, .language {
     position: absolute;
     left: 20%;
@@ -2719,14 +2448,15 @@ button:active {
 
   .my-skills {
     position: relative;
-    top: 0;
-    left: 70%;
+    top: -26%;
+    left: 0;
   }
 
   .underline2 {
     position: absolute;
-    width: 100%;
-    top: 220px;
+    width: 50%;
+    top:45%;
+    left: 20%;
   }
 
   .social-media {
@@ -2748,15 +2478,14 @@ button:active {
   .work-section {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100vw 2056px;
+    grid-template-rows: 100vw auto;
     align-items: center;
     row-gap: 100px;
     padding: 114px 0;
     position: absolute;
     width: 100vw;
-    height: 2527px;
     left: 0;
-    top: 800px;
+    top: 80vh;
   }
 
   .work-title {
@@ -2764,11 +2493,10 @@ button:active {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 155px;
     left: 0;
-    top: 114px;
   }
 
   .work-title h1 {
@@ -2790,7 +2518,7 @@ button:active {
 
   .underline3 {
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     width: 100%;
     left: 0;
   }
@@ -2804,9 +2532,8 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100vw;
-    height: 2056px;
     left: 0;
-    top: 307px;
+    top: 20%;
   }
 
   .work1 {
@@ -2816,7 +2543,6 @@ button:active {
     padding: 0;
     position: absolute;
     width: 50vw;
-    height:100vh;
     left: 50vw;
     transform: translateX(-50%);
     top: 0;
@@ -2826,7 +2552,7 @@ button:active {
   .work1-link {
     position: absolute;
     width: 100%;
-    height: 448px;
+    height: 30%;
     left: 0;
     top: 0;
   }
@@ -2834,7 +2560,7 @@ button:active {
   .work1-img {
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   .work-cont {
@@ -2842,16 +2568,39 @@ button:active {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    position: absolute;
+    position: relative;
+    height: 65%;
     width: 100%;
-    height: 405px;
-    top: 35%;
-    left: 0%;
+    top: 30%;
+    left: 0;
+    border: 2px solid red;
   }
   
   .project-desc {
     width: 100%;
+    top: 20%;
+    height: 30%;
+    position: absolute;
+    min-width: 50%;
+    text-overflow: ellipsis;
+    border: 2px solid brown;
+  }
+
+  .tag {
+    position: absolute;
+    width: 100%;
+    top: 65%;  
+  }
+
+  .project-title {
+    position: absolute;
+    width: 100%;
     top: 0;
+  }
+
+  .proj-btn {
+    position: absolute;
+    bottom: 0;
   }
   
   .work2 {
@@ -2861,41 +2610,9 @@ button:active {
     padding: 0;
     position: absolute;
     width: 50vw;
-    height:100vh;
     left: 50vw;
     transform: translateX(-50%);
-    top: 120vh;
     margin: 0;
-  }
-
-  .work2-link {
-    position: absolute;
-    width: 100%;
-    height: 448px;
-    left: 0;
-    top: 0;
-  }
-
-  .work2-img {
-    position: relative;
-    width: 100%;
-    height: 50%;
-  }
-
-  .work-cont1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    height: 405px;
-    top: 35%;
-    left: 0%;
-  }
-  
-  .project-desc1 {
-    width: 100%;
   }
 
   .work3 {
@@ -2905,41 +2622,10 @@ button:active {
     padding: 0;
     position: absolute;
     width: 50vw;
-    height:100vh;
     left: 50vw;
     transform: translateX(-50%);
-    top: 240vh;
+    top: 50%;
     margin: 0;
-  }
-
-  .work2-link {
-    position: absolute;
-    width: 100%;
-    height: 448px;
-    left: 0;
-    top: 0;
-  }
-
-  .work2-img {
-    position: relative;
-    width: 100%;
-    height: 50%;
-  }
-
-  .work-cont2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    height: 405px;
-    top: 35%;
-    left: 0%;
-  }
-  
-  .project-desc2 {
-    width: 100%;
   }
 
   .work4 {
@@ -2949,48 +2635,10 @@ button:active {
     padding: 0;
     position: absolute;
     width: 50vw;
-    height:100vh;
     left: 50vw;
     transform: translateX(-50%);
-    top: 355vh;
+    bottom: 0;
     margin: 0;
-  }
-
-  .work3-link {
-    position: absolute;
-    width: 100%;
-    height: 448px;
-    left: 0;
-    top: 0;
-  }
-
-  .work3-img {
-    position: relative;
-    width: 100%;
-    height: 50%;
-  }
-
-  .work4 >div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    height: 405px;
-    top: 35%;
-    left: 0%;
-  }
-  
-  .project-desc3 {
-    width: 100%;
-  }
-
-  .tag,
-  .tag1,
-  .tag2,
-  .tag3 {
-    width: 100%;
   }
 
   .work-backg {
@@ -3022,7 +2670,7 @@ button:active {
     position: absolute;
     width: 108px;
     height: 402px;
-    right: -1.35%;
+    right: -3.35%;
     top: 566px;
     z-index: -999;
     display: flex;
@@ -3033,7 +2681,7 @@ button:active {
     width: 308px;
     height: 155px;
     left: -11px;
-    top: 1272px;
+    top: 79%;
     z-index: -999;
     display: flex;
   }
@@ -3042,8 +2690,8 @@ button:active {
     position: absolute;
     width: 246.19px;
     height: 916.38px;
-    right: -1.4%;
-    top: 1588px;
+    right: -3.4%;
+    top: 95%;
     z-index: -999;
     filter: brightness(0.8);
     display: flex;
@@ -3051,13 +2699,11 @@ button:active {
 
   .footer {
     position: absolute;
-    bottom: 0;
     top: 100%;
     width: 100vw;
     left: 0;
     display: flex;
-    align-items: center;
-    height: 60px;
+    align-items: flex-end;
   }
 
   .black-underline {
@@ -3067,13 +2713,13 @@ button:active {
   .footer-social-media {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     padding: 0;
     position: absolute;
     width: 100%;
     height: 40px;
     left: 0;
-    top: 16px;
+    top: 70%;
   }
 
   .media {
@@ -3096,9 +2742,8 @@ button:active {
     padding: 114px 0;
     position: absolute;
     width: 100vw;
-    height: 627px;
     left: 0;
-    top: 3860px;
+    top: 83%;
   }
 
   .form {
@@ -3171,6 +2816,12 @@ button:active {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+  }
+
+  .underline-footer {
+    top: 70%;
+    position: absolute;
+    width: 100%;
   }
 }
 
