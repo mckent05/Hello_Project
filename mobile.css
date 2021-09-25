@@ -2147,6 +2147,74 @@ button:active {
   }
 }
 
+@media screen and (min-width: 376px) and (max-width : 699px) {
+  body {
+    left: 0;
+    transform: translateX(0);
+    width: 100vw;
+  }
+
+  .status-bar {
+    display: none;
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .content {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .images {
+    width: 100vw;
+    
+  }
+
+  .eclipse2 {
+    right: 2%;
+    position: absolute;
+  }
+
+  .work-section {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .work-backg {
+    width: 100vw;
+  }
+
+  .back2 {
+    right: 0;
+  }
+
+  .back4 {
+    display: none;
+  }
+
+  .contact-form {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    width: 100vw;
+  }
+
+  .footer-social-media {
+    left: 50%;
+    transform: translateX(-55%);
+  }
+
+
+  
+
+
+
+}
+
 @media screen and (min-width: 700px) and (max-width: 992px) {
   body {
     position: relative;
@@ -2742,6 +2810,8 @@ button:active {
     width: 100vw;
     left: 0;
     top: 83%;
+    left: 50%;
+    transform: translateX(-45%);
   }
 
   .form {
