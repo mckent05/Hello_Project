@@ -2180,6 +2180,21 @@ button:active {
   .work-section {
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .work1 {
+    z-index: 999;
+  }
+
+  .work2 {
+    z-index: 999;
+  }
+
+  .work3 {
+    z-index: 999;
+  }
+
+  .work4 {
     z-index: 999;
   }
 
