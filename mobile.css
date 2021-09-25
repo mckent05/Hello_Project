@@ -239,7 +239,7 @@ body {
   box-shadow: 1px 2px 6px rgba(125, 115, 252, 0.48);
   border-radius: 8px;
 }
-  
+
 .content {
   position: absolute;
   width: 375px;
@@ -1643,11 +1643,6 @@ button:active {
     transition: ease-in 0.5s;
   }
 
-  .item-links a:hover {
-    color:royalblue;
-    padding: 8px 0;
-  }
-
   .logo {
     position: static;
     width: 77px;
@@ -1697,7 +1692,6 @@ button:active {
     left: calc(50% - 1156px / 2);
     top: 114px;
   }
-
 
   .primary-text {
     position: static;
@@ -2145,13 +2139,22 @@ button:active {
     line-height: 28px;
     text-align: center;
   }
+
+  .item-links a:hover {
+    color: royalblue;
+    padding: 8px 0;
+  }
 }
 
-@media screen and (min-width: 376px) and (max-width : 699px) {
+@media screen and (min-width: 376px) and (max-width: 699px) {
   body {
     left: 0;
     transform: translateX(0);
     width: 100vw;
+  }
+
+  .black-underline {
+    display: none;
   }
 
   .status-bar {
@@ -2169,7 +2172,6 @@ button:active {
 
   .images {
     width: 100vw;
-    
   }
 
   .eclipse2 {
@@ -2223,12 +2225,6 @@ button:active {
     left: 50%;
     transform: translateX(-55%);
   }
-
-
-  
-
-
-
 }
 
 @media screen and (min-width: 700px) and (max-width: 992px) {
@@ -2380,7 +2376,7 @@ button:active {
   }
 
   .item-links a:hover {
-    color:royalblue;
+    color: royalblue;
     padding: 8px 0;
   }
 
@@ -2429,7 +2425,7 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100%;
-    height:35%;
+    height: 35%;
     left: 0;
     top: 5%;
   }
@@ -2520,7 +2516,8 @@ button:active {
     justify-content: center;
   }
 
-  .lang, .language {
+  .lang, 
+  .language {
     position: absolute;
     left: 20%;
   }
@@ -2539,7 +2536,7 @@ button:active {
   .underline2 {
     position: absolute;
     width: 50%;
-    top:45%;
+    top: 45%;
     left: 20%;
   }
 
@@ -2555,7 +2552,8 @@ button:active {
     left: -100%;
   }
 
-  .work-btn, .work-btn2 {
+  .work-btn, 
+  .work-btn2 {
     display: none;
   }
 
@@ -2658,7 +2656,7 @@ button:active {
     top: 30%;
     left: 0;
   }
-  
+
   .project-desc {
     width: 100%;
     top: 20%;
@@ -2684,7 +2682,7 @@ button:active {
     position: absolute;
     bottom: 0;
   }
-  
+
   .work2 {
     display: flex;
     flex-direction: column;
@@ -2824,7 +2822,6 @@ button:active {
     padding: 114px 0;
     position: absolute;
     width: 100vw;
-    left: 0;
     top: 83%;
     left: 50%;
     transform: translateX(-45%);
@@ -2843,7 +2840,7 @@ button:active {
   }
 
   #input {
-    top:0;
+    top: 0;
     position: absolute;
     width: 50%;
     left: 25%;
@@ -2908,6 +2905,3 @@ button:active {
     width: 100%;
   }
 }
-
-  
-
