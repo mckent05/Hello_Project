@@ -2573,7 +2573,6 @@ button:active {
     width: 100%;
     top: 30%;
     left: 0;
-    border: 2px solid red;
   }
   
   .project-desc {
@@ -2583,7 +2582,6 @@ button:active {
     position: absolute;
     min-width: 50%;
     text-overflow: ellipsis;
-    border: 2px solid brown;
   }
 
   .tag {
