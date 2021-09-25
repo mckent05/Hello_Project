@@ -2516,7 +2516,11 @@ button:active {
     justify-content: center;
   }
 
-  .lang, 
+  .lang {
+    position: absolute;
+    left: 20%;
+  }
+
   .language {
     position: absolute;
     left: 20%;
@@ -2552,7 +2556,10 @@ button:active {
     left: -100%;
   }
 
-  .work-btn, 
+  .work-btn {
+    display: none;
+  }
+
   .work-btn2 {
     display: none;
   }
