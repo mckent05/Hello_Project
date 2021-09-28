@@ -313,7 +313,7 @@ body {
   justify-content: center;
 }
 
-.support-text h3 {
+.support-text h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1208,10 +1208,14 @@ body {
 
 .back2 {
   position: absolute;
-  right: -30px;
+  right: -10%;
   top: 650px;
-  z-index: -999;
-  filter: opacity(0.75);
+  height: 10%;
+  width: 50%;
+  background-image: url("icons/back2.png");
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .back3 {
@@ -1222,7 +1226,7 @@ body {
 
 .back4 {
   position: absolute;
-  left: 105px;
+  left: 110px;
   top: 2350px;
   filter: opacity(0.75);
 }
@@ -1286,7 +1290,6 @@ body {
   position: absolute;
   width: 327px;
   height: 164px;
-  left: 12px;
   top: 120px;
 }
 
@@ -1298,7 +1301,6 @@ body {
   position: absolute;
   width: 327px;
   height: 392px;
-  left: 12px;
   top: 324px;
   justify-content: center;
 }
@@ -1490,6 +1492,8 @@ button:active {
 
   .contact-form {
     height: 500px;
+    left: 50%;
+    transform: translateX(-50%); 
   }
 }
 
@@ -2205,7 +2209,13 @@ button:active {
   }
 
   .back2 {
-    right: 0;
+    height: 10%;
+    width: 30%;
+    background-image: url("icons/back2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -1%;
   }
 
   .back4 {
@@ -2236,6 +2246,7 @@ button:active {
     box-shadow: none;
     transform: translateX(0);
   }
+  
 
   .close-btn {
     display: none;
@@ -2511,8 +2522,8 @@ button:active {
     padding: 0;
     position: absolute;
     width: 100vw;
-    left: 5%;
     top: 65%;
+    left: 0;
     justify-content: center;
   }
 
@@ -2726,7 +2737,7 @@ button:active {
 
   .work-backg {
     position: absolute;
-    width: 100%;
+    width: 99vw;
     height: 1963.98px;
     left: 0;
     top: 1445px;
@@ -2753,7 +2764,7 @@ button:active {
     position: absolute;
     width: 108px;
     height: 402px;
-    right: -3.35%;
+    right: -1.2%;
     top: 566px;
     z-index: -999;
     display: flex;
@@ -2773,7 +2784,7 @@ button:active {
     position: absolute;
     width: 246.19px;
     height: 916.38px;
-    right: -3.4%;
+    right: -1.4%;
     top: 95%;
     z-index: -999;
     filter: brightness(0.8);
@@ -2783,7 +2794,7 @@ button:active {
   .footer {
     position: absolute;
     top: 100%;
-    width: 100vw;
+    width: 97vw;
     left: 0;
     display: flex;
     align-items: flex-end;
@@ -2824,10 +2835,10 @@ button:active {
     align-items: center;
     padding: 114px 0;
     position: absolute;
-    width: 100vw;
+    width: 97vw;
     top: 83%;
     left: 50%;
-    transform: translateX(-45%);
+    transform: translateX(-50%);
   }
 
   .form {
@@ -2836,9 +2847,9 @@ button:active {
     align-items: center;
     padding: 0;
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 274px;
-    left: 2%;
+    left: 0;
     top: 343px;
   }
 
@@ -2883,7 +2894,7 @@ button:active {
     align-items: center;
     padding: 0;
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 141px;
     left: 2%;
     top: 114px;
