@@ -41,10 +41,6 @@ body {
   color: #9390ff;
 }
 
-.contact-me h2:last-of-type {
-  display: none;
-}
-
 .item-links {
   display: none;
 }
@@ -373,6 +369,10 @@ body {
   left: 0;
   right: 0;
   border: 1px solid grey;
+}
+
+.contact-me h2:last-of-type {
+  display: none;
 }
 
 .skills {
@@ -1213,7 +1213,7 @@ body {
   height: 10%;
   width: 50%;
   background-image: url("icons/back2.png");
-  background-position:right;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1493,7 +1493,7 @@ button:active {
   .contact-form {
     height: 500px;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
   }
 }
 
@@ -2246,7 +2246,6 @@ button:active {
     box-shadow: none;
     transform: translateX(0);
   }
-  
 
   .close-btn {
     display: none;
